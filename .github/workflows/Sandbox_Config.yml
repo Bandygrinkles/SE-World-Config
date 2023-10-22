@@ -1587,16 +1587,6 @@
       <PublishedFileId>2745251918</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Adapted Economy">
-      <Name>2855028817.sbm</Name>
-      <PublishedFileId>2855028817</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Freight Contracts">
-      <Name>2915223144.sbm</Name>
-      <PublishedFileId>2915223144</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="RTS">
       <Name>2961726679.sbm</Name>
       <PublishedFileId>2961726679</PublishedFileId>
