@@ -11,7 +11,7 @@
     <MaxPlayers>4</MaxPlayers>
     <MaxFloatingObjects>201</MaxFloatingObjects>
     <TotalBotLimit>63</TotalBotLimit>
-    <MaxBackupSaves>23</MaxBackupSaves>
+    <MaxBackupSaves>20</MaxBackupSaves>
     <MaxGridSize>0</MaxGridSize>
     <MaxBlocksPerPlayer>0</MaxBlocksPerPlayer>
     <TotalPCU>0</TotalPCU>
@@ -150,16 +150,6 @@
     <ModItem FriendlyName="Stargate Stargates Nexus - for the poor techless">
       <Name>2848241267.sbm</Name>
       <PublishedFileId>2848241267</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SANCHININTERIOR(DX9 and DX11)">
-      <Name>310696236.sbm</Name>
-      <PublishedFileId>310696236</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Energy Shields">
-      <Name>484504816.sbm</Name>
-      <PublishedFileId>484504816</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="引力引擎 | Gravity Engine">
