@@ -24,6 +24,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
     <MaxBlocksPerPlayer>0</MaxBlocksPerPlayer>
     <TotalPCU>0</TotalPCU>
     <PiratePCU>1000000</PiratePCU>
+    <GlobalEncounterPCU>25000</GlobalEncounterPCU>
     <MaxFactionsCount>100</MaxFactionsCount>
     <BlockLimitsEnabled>NONE</BlockLimitsEnabled>
     <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
@@ -96,7 +97,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
     <EnableVoxelHand>true</EnableVoxelHand>
     <RemoveOldIdentitiesH>0</RemoveOldIdentitiesH>
     <TrashRemovalEnabled>true</TrashRemovalEnabled>
-    <StopGridsPeriodMin>15</StopGridsPeriodMin>
+    <StopGridsPeriodMin>0</StopGridsPeriodMin>
     <TrashFlagsValue>7706</TrashFlagsValue>
     <AFKTimeountMin>0</AFKTimeountMin>
     <BlockCountThreshold>20</BlockCountThreshold>
@@ -118,12 +119,14 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
     <DepositsCountCoefficient>1</DepositsCountCoefficient>
     <DepositSizeDenominator>60</DepositSizeDenominator>
     <WeatherSystem>false</WeatherSystem>
+    <WeatherLightingDamage>false</WeatherLightingDamage>
     <HarvestRatioMultiplier>0.8</HarvestRatioMultiplier>
     <TradeFactionsCount>15</TradeFactionsCount>
     <StationsDistanceInnerRadius>10000000</StationsDistanceInnerRadius>
     <StationsDistanceOuterRadiusStart>10000000</StationsDistanceOuterRadiusStart>
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
+    <NPCGridClaimTimeLimit>120</NPCGridClaimTimeLimit>
     <SimplifiedSimulation>false</SimplifiedSimulation>
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
@@ -153,13 +156,33 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
     <MaxProductionQueueLength>50</MaxProductionQueueLength>
     <PrefetchShapeRayLengthLimit>15000</PrefetchShapeRayLengthLimit>
     <EnemyTargetIndicatorDistance>20</EnemyTargetIndicatorDistance>
+    <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
+    <MinimumWorldSize>0</MinimumWorldSize>
+    <MaxCargoBags>100</MaxCargoBags>
+    <TrashCleanerCargoBagsMaxLiveTime>30</TrashCleanerCargoBagsMaxLiveTime>
+    <ScrapEnabled>true</ScrapEnabled>
+    <BroadcastControllerMaxOfflineTransmitDistance>200</BroadcastControllerMaxOfflineTransmitDistance>
+    <TemporaryContainers>true</TemporaryContainers>
+    <GlobalEncounterTimer>15</GlobalEncounterTimer>
+    <GlobalEncounterCap>1</GlobalEncounterCap>
+    <GlobalEncounterEnableRemovalTimer>true</GlobalEncounterEnableRemovalTimer>
+    <GlobalEncounterMinRemovalTimer>90</GlobalEncounterMinRemovalTimer>
+    <GlobalEncounterMaxRemovalTimer>180</GlobalEncounterMaxRemovalTimer>
+    <GlobalEncounterRemovalTimeClock>30</GlobalEncounterRemovalTimeClock>
+    <EncounterDensity>0.35</EncounterDensity>
+    <EncounterGeneratorVersion>6</EncounterGeneratorVersion>
+    <EnablePlanetaryEncounters>true</EnablePlanetaryEncounters>
+    <PlanetaryEncounterTimerMin>15</PlanetaryEncounterTimerMin>
+    <PlanetaryEncounterTimerMax>30</PlanetaryEncounterTimerMax>
+    <PlanetaryEncounterExistingStructuresRange>7000</PlanetaryEncounterExistingStructuresRange>
+    <PlanetaryEncounterAreaLockdownRange>10000</PlanetaryEncounterAreaLockdownRange>
+    <PlanetaryEncounterDesiredSpawnRange>6000</PlanetaryEncounterDesiredSpawnRange>
+    <PlanetaryEncounterPresenceRange>20000</PlanetaryEncounterPresenceRange>
+    <PlanetaryEncounterDespawnTimeout>120</PlanetaryEncounterDespawnTimeout>
+    <LimitBlocksBy>BlockPairName</LimitBlocksBy>
+    <MaxHudChatMessageCount>100</MaxHudChatMessageCount>
   </Settings>
   <Mods>
-    <ModItem FriendlyName="Stargate Stargates Nexus - for the poor techless">
-      <Name>2848241267.sbm</Name>
-      <PublishedFileId>2848241267</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="引力引擎 | Gravity Engine">
       <Name>3056478530.sbm</Name>
       <PublishedFileId>3056478530</PublishedFileId>
@@ -230,7 +253,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>1469072169</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="BuildInfo (extra block+terminal info, air leak finder)">
+    <ModItem FriendlyName="Build Info">
       <Name>514062285.sbm</Name>
       <PublishedFileId>514062285</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -380,7 +403,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>3033398824</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Transporter (1.201) Works in Most Wanted">
+    <ModItem FriendlyName="Transporter -- Works (Nov 30, 2023)">
       <Name>2071992722.sbm</Name>
       <PublishedFileId>2071992722</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -420,7 +443,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>1958262222</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Sickles Signs V2 - 100+ LCD Textures">
+    <ModItem FriendlyName="Sickles Signs V2: 200+ LCD Textures">
       <Name>957664290.sbm</Name>
       <PublishedFileId>957664290</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -470,7 +493,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>946724937</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Overclocking Control System">
+    <ModItem FriendlyName="超频控制系统 | Overclocking Control System">
       <Name>2857323734.sbm</Name>
       <PublishedFileId>2857323734</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -500,7 +523,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2494017078</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Molecular Force Field (Forcefield)">
+    <ModItem FriendlyName="Molecular Force Field (Forcefield) - HAS BUGS - NO LONGER SUPPORTED">
       <Name>2624086175.sbm</Name>
       <PublishedFileId>2624086175</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -760,7 +783,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>1481738859</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Armor Ramp Compendium">
+    <ModItem FriendlyName="Armor Ramp Compendium [Abandoned]">
       <Name>1581994759.sbm</Name>
       <PublishedFileId>1581994759</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -915,16 +938,6 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2607470444</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Dank meme songs">
-      <Name>709322010.sbm</Name>
-      <PublishedFileId>709322010</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="CB's Huge Pog Songs">
-      <Name>2244855297.sbm</Name>
-      <PublishedFileId>2244855297</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="SoundBlock - Halo Theme Gungnir Mix">
       <Name>356437296.sbm</Name>
       <PublishedFileId>356437296</PublishedFileId>
@@ -948,11 +961,6 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
     <ModItem FriendlyName="Music Mix - Radio CD1">
       <Name>855021742.sbm</Name>
       <PublishedFileId>855021742</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Metal and Rock Music Mix">
-      <Name>875927904.sbm</Name>
-      <PublishedFileId>875927904</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Film &amp; Game Music">
@@ -980,7 +988,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>1400364273</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="AiEnabled v1.7">
+    <ModItem FriendlyName="AiEnabled v1.8">
       <Name>2596208372.sbm</Name>
       <PublishedFileId>2596208372</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1100,12 +1108,12 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>1793333265</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Parallax Concepts (Formerly Surface Occupation)">
+    <ModItem FriendlyName="Parallax Concepts">
       <Name>1135484957.sbm</Name>
       <PublishedFileId>1135484957</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Imber Corporation (Formerly Air Traffic)">
+    <ModItem FriendlyName="Imber Corporation">
       <Name>973526550.sbm</Name>
       <PublishedFileId>973526550</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1125,17 +1133,12 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2621351690</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="MES Planetary Cargo Shipments &amp; Escorts">
-      <Name>2615151213.sbm</Name>
-      <PublishedFileId>2615151213</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Industrial Overhaul - v1.62">
       <Name>2344068716.sbm</Name>
       <PublishedFileId>2344068716</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Daily Needs Survival Kit ( DNSK - Mk4.1a )">
+    <ModItem FriendlyName="Daily Needs Survival Kit ( DNSK - Mk 4.2 )">
       <Name>1608841667.sbm</Name>
       <PublishedFileId>1608841667</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1185,11 +1188,6 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2355808908</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="WeaponCore - 2.4">
-      <Name>1918681825.sbm</Name>
-      <PublishedFileId>1918681825</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Heavier Armor for WeaponCore">
       <Name>3016620818.sbm</Name>
       <PublishedFileId>3016620818</PublishedFileId>
@@ -1205,7 +1203,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2880317963</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Battlestar Galactica Mod Pack 1.6">
+    <ModItem FriendlyName="Battlestar Galactica Mod Pack 2.8">
       <Name>2926053977.sbm</Name>
       <PublishedFileId>2926053977</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1280,7 +1278,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2255171772</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Warfare II DLC Additions - WC Edition (14)">
+    <ModItem FriendlyName="Warfare II DLC Additions - WC Edition (15)">
       <Name>2811647602.sbm</Name>
       <PublishedFileId>2811647602</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1300,7 +1298,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2886763223</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Vortex Tactical - Animated Weaponcore Hand Weapons">
+    <ModItem FriendlyName="(VTAH) Vortex Tactical - Animated Weaponcore Hand Weapons">
       <Name>3044051733.sbm</Name>
       <PublishedFileId>3044051733</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1335,12 +1333,12 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2410783458</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="KAALAKIOTA - ABYSSAL SYSTEMS">
+    <ModItem FriendlyName="KAALAKIOTA - Abyssal Systems">
       <Name>3035615398.sbm</Name>
       <PublishedFileId>3035615398</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="KONTAKT Ground Systems [WeaponCore] v0.25 BETA">
+    <ModItem FriendlyName="KONTAKT Ground Systems [WeaponCore] v1.0">
       <Name>2930049835.sbm</Name>
       <PublishedFileId>2930049835</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1360,12 +1358,12 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>3043253125</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Consolidation Armament II">
+    <ModItem FriendlyName="Consolidation Armament II - Definitive Weapon Pack">
       <Name>2933383148.sbm</Name>
       <PublishedFileId>2933383148</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Consolidation Armament">
+    <ModItem FriendlyName="Consolidation Armament - Definitive Weapon Pack">
       <Name>2809355711.sbm</Name>
       <PublishedFileId>2809355711</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1375,22 +1373,17 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>1330335279</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Defense Shields - v2.2(8)">
-      <Name>1365616918.sbm</Name>
-      <PublishedFileId>1365616918</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Assault Weapons Pack WeaponCore Edition">
+    <ModItem FriendlyName="Assault Weapons Pack WeaponCore Edition (ABANDONED)">
       <Name>2947221992.sbm</Name>
       <PublishedFileId>2947221992</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Aryx Weapon Enterprises [WeaponCore]">
+    <ModItem FriendlyName="Aryx Weapon Enterprises Vol. 1 [WeaponCore]">
       <Name>2530716039.sbm</Name>
       <PublishedFileId>2530716039</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Aryx Weapon Enterprises - Aeronautical">
+    <ModItem FriendlyName="Aryx Weapon Enterprises - Vol. 2 - Naval">
       <Name>2945133999.sbm</Name>
       <PublishedFileId>2945133999</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1585,7 +1578,7 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedFileId>2916917176</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Better Stone v7.0.11">
+    <ModItem FriendlyName="Better Stone v7.0.12">
       <Name>406244471.sbm</Name>
       <PublishedFileId>406244471</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -1601,6 +1594,6 @@ STEP 5 IGNORE THE LINE INDICATORS ON THE SIDE, DON'T INCLUDE THOSE IN THE COPY/P
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
   </Mods>
-  <SessionName>Star System 2023-10-11 21:17 1333337</SessionName>
-  <LastSaveTime>2023-10-22T13:48:39.7997372-04:00</LastSaveTime>
+  <SessionName>ALLSTAR</SessionName>
+  <LastSaveTime>2024-11-21T04:53:59.5616988-08:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
